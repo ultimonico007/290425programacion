@@ -11,9 +11,9 @@ public class controler : MonoBehaviour
         Tienda escudo = new Tienda{ nombre ="escudo de madera",precio=0.5f};
         Tienda pistola = new Tienda{ nombre ="pistola:pew-pew",precio=9999f};
 
-        Debug.Log($"producto:{espada.nombre},precio:${espada.precio}");
-        Debug.Log($"producto:{escudo.nombre},precio:${escudo.precio}");
-        Debug.Log($"producto:{pistola.nombre},precio:${pistola.precio}");
+        Debug.Log($"producto:{espada.nombre},precio:€{espada.precio}");
+        Debug.Log($"producto:{escudo.nombre},precio:€{escudo.precio}");
+        Debug.Log($"producto:{pistola.nombre},precio:€{pistola.precio}");
     }
 }
 
