@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Circulo : MonoBehaviour
 {
-    public uicontroler canvasManager;
+    public UIControler canvasManager;
     private Animator anim;
 
     private void Start()
